@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.parent{
+    width: 550px;
+    height: 400px;
+    background-color: tan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}

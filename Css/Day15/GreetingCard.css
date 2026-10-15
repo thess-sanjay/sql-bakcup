@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.page{
+    width: 30%;
+    height: 60vh;
+}
+.front{
+    background-image: url(https://imgs.search.brave.com/rh3zMmukwlcAYaUJPjamZbsZXs2L-1Da7U7YSfLQFxo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvaXJv/bi1zcGlkZXItc3Bp/ZGVybWFuLWFjdGlv/bi1maWd1cmUtNHMw/bDJvNXpiOGVvNXV1/Ni5qcGc);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    transition: all 0.5s linear;
+    transform-origin: 0%, 0%;
+}

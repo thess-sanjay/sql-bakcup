@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #para::first-letter{
+        color: red;
+        font-size: 30px;
+    }
+    #para::first-line{
+        background-color: bisque;
+    }
+    #para::after{
+        content: "Content Added with the Help of CSS";
+        color:blue;
+    }
+    #para::before{
+        content: "Content added before the para using CSS";
+        color: blue;
+    }
+    li{
+        color: green;
+    }
+    li::marker{
+        color: brown;
+    }
+    #para2::selection{
+        background-color: orange;
+        color: white;
+    }
+    input{
+        caret-color: red;
+    }
+    input::placeholder{
+        font-size: 10px;
+        color: blue;
+    }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Element Selector (::)</h1>
+    <p>PES is used to change the some part of HTML element.</p>
+    <p id="para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatem optio id voluptates? Et, eligendi autem harum sequi illo hic!
+    </p>
+    <hr>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+    <p id="para2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, ipsum cum magnam animi eligendi earum repellat, expedita quisquam in omnis distinctio recusandae nesciunt ad nam ducimus magni laborum aliquid asperiores.
+        Delectus error aperiam at aliquam dolore quos, maiores cum fugit porro suscipit possimus exercitationem? Ex dicta optio consequuntur minus quidem blanditiis, molestias soluta hic! Voluptatum eveniet earum eum eius distinctio.
+        Eum et facere placeat laboriosam odio in tenetur! Unde molestias maxime suscipit id doloribus saepe repellat fugiat possimus porro eius adipisci neque, deserunt praesentium eveniet error ratione temporibus? Perspiciatis, expedita?
+        Dicta beatae amet aliquam obcaecati, velit fugit totam rem, quos eveniet sit ipsam unde molestias officiis eaque consectetur exercitationem. Velit animi hic quibusdam voluptatum doloribus, porro distinctio dicta id! Aperiam?
+        Ullam fugiat eveniet quisquam cumque deleniti tenetur nemo fugit minus totam beatae, dicta animi voluptas commodi, nostrum est quia nulla nobis? Assumenda culpa doloribus ducimus itaque ipsa esse nobis repudiandae!
+    </p>
+    <hr>
+    <label for="">FirstName: </label>
+    <input type="text" placeholder="Enter your firstName here">
+</body>
+</html>
